@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tr-example"
+description = "Example project for Qt transaltions"
+authors = [{ name = "ostr00000"}]
+version = "0.1.0"
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'Environment :: X11 Applications :: Qt',
+    'Intended Audience :: Developers',
+    'Intended Audience :: Education',
+    'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',
+    'Natural Language :: English',
+    'Natural Language :: Polish',
+    'Programming Language :: Python :: 3',
+    'Topic :: Text Processing :: Linguistic',
+]
+dependencies = [
+    'typing-extensions',
+    'qtpy',
+    'PyQt5',
+]
+requires-python = ">=3.10"
